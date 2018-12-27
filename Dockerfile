@@ -21,7 +21,3 @@ RUN set -ex \
     && pip3 install awscli boto3
 
 VOLUME /var/lib/docker
-
-COPY dockerd-entrypoint.sh /usr/local/bin/
-
-ENTRYPOINT ["/usr/local/bin/dockerd-entrypoint.sh"]
