@@ -2,10 +2,10 @@ FROM docker:dind
 
 # Note: Latest version of kubectl may be found at:
 # https://aur.archlinux.org/packages/kubectl-bin/
-ENV KUBE_LATEST_VERSION="v1.13.0"
+ENV KUBE_LATEST_VERSION="v1.13.1"
 # Note: Latest version of helm may be found at:
 # https://github.com/kubernetes/helm/releases
-ENV HELM_VERSION="v2.12.0"
+ENV HELM_VERSION="v2.12.1"
 
 # Install git, SSH, and other utilities
 RUN apk add --no-cache \
