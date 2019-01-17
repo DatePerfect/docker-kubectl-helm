@@ -5,7 +5,7 @@ FROM docker:dind
 ENV KUBE_LATEST_VERSION="v1.13.1"
 # Note: Latest version of helm may be found at:
 # https://github.com/kubernetes/helm/releases
-ENV HELM_VERSION="v2.12.1"
+ENV HELM_VERSION="v2.12.2"
 
 # Install git, SSH, and other utilities
 RUN apk add --no-cache \
